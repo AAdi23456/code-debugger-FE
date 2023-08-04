@@ -1,0 +1,157 @@
+.app {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-panel {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.input-textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.button-group button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.right-panel {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.output-div {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  min-height: 100px;
+}
+@keyframes buttonClickAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333; /* Dark background color */
+}
+
+.left-panel {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.input-textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.button-group button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  animation: buttonClickAnimation 0.3s ease-in-out; /* Add the animation */
+}
+
+.right-panel {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.output-div {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  min-height: 100px;
+  background-color: #222;
+  color: #fff; 
+}
+.app {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333; /* Dark background color */
+}
+
+.left-panel {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  height: 400px; /* Increased height */
+}
+
+.input-textarea {
+  width: 100%;
+  height: 300px; /* Increased height */
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.button-group button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  animation: buttonClickAnimation 0.3s ease-in-out; /* Add the animation */
+}
+
+.right-panel {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  height: 400px; /* Increased height */
+}
+
+.output-div {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  min-height: 150px; /* Increased height */
+  background-color: #222;
+  color: #fff;
+}
